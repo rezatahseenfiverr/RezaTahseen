@@ -30,7 +30,7 @@ const Projects = () => {
         {/* Project 3: Web Chat Application (External Link) */}
         <Link href="#">
           <ProjectCard
-            src="/text-AirDrop.png"
+            src="/text-airdrop.png"
             title="Web Chat Application"
             description="This web application is built with Next.js, MongoDB, Prisma, Express, and Node.js, making it a powerful set for building modern web apps."
           />
