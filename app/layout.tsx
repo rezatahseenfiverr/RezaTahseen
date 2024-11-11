@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: "Reza Tahseen",
   description: "This is my portfolio",
   icons: {
-    icon: "/profile-image.png",
-    shortcut: "/profile-image.png",
-    apple: "/profile-image.png",
+    icon: "/Profile-Image.png",
+    shortcut: "/Profile-Image.png",
+    apple: "/Profile-Image.png",
   },
 };
 
