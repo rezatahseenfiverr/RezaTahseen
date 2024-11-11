@@ -10,7 +10,7 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         {/* Project 1: Mobile Chat Application */}
-        <Link href="/mobile-chat-app">
+        <Link href="#">
           <ProjectCard
             src="/app.png"
             title="Mobile Chat Application"
@@ -19,7 +19,7 @@ const Projects = () => {
         </Link>
 
         {/* Project 2: E-commerce Website */}
-        <Link href="/e-commerce-site">
+        <Link href="#">
           <ProjectCard
             src="/products.png"
             title="E-commerce Website"
@@ -28,17 +28,13 @@ const Projects = () => {
         </Link>
 
         {/* Project 3: Web Chat Application (External Link) */}
-        <a
-          href="https://github.com/your-github-repo"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="#">
           <ProjectCard
             src="/text-AirDrop.png"
             title="Web Chat Application"
             description="This web application is built with Next.js, MongoDB, Prisma, Express, and Node.js, making it a powerful set for building modern web apps."
           />
-        </a>
+        </Link>
       </div>
     </div>
   );
